@@ -1,6 +1,13 @@
 # Firebase Authentication
 Firebase Authentication code guideline for Android developer 
 
+## Demo application
+See [these code examples in `/app` module](/app) of this repository. Example implementations are available in both Java and Kotlin programming languages.
+
+You can download demo version of Android app from here
+
+[![EasyUpiPayment Demo App](https://img.shields.io/badge/EasyUpiPaymentEXAMPLE-APK-red.svg?style=for-the-badge&logo=android)](https://github.com/PatilShreyas/EasyUpiPayment-Android/raw/master/app/app-debug.apk)
+
 ## Screenshots
 <table width="100%">
 	<tr>
