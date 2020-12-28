@@ -1,11 +1,11 @@
 # Firebase Authentication
 
-## Demo application
 
-You can download demo version of Android app from here
-
+## APK
+Download apk file here [Firebase Authentication](https://raw.githubusercontent.com/shankar7545/FirebaseAuthentication/master/app-debug.apk)
+```
 https://raw.githubusercontent.com/shankar7545/FirebaseAuthentication/master/app-debug.apk
-
+```
 
 ## Screenshots
 <table width="100%">
