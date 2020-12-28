@@ -2,7 +2,7 @@
 Firebase Authentication code guideline for Android developer 
 
 ## Demo application
-See [these code examples in `/app` module](/app) of this repository. Example implementations are available in both Java and Kotlin programming languages.
+See [these code examples in `/app` module](/app) of this repository. Example implementations are available in Java .
 
 You can download demo version of Android app from here
 
