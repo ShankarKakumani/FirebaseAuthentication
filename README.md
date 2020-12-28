@@ -6,7 +6,7 @@ See [these code examples in `/app` module](/app) of this repository. Example imp
 
 You can download demo version of Android app from here
 
-(https://github.com/PatilShreyas/EasyUpiPayment-Android/raw/master/app/app-debug.apk)
+https://raw.githubusercontent.com/shankar7545/FirebaseAuthentication/master/app-debug.apk
 
 
 ## Screenshots
