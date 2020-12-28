@@ -2,7 +2,7 @@
 Firebase Authentication code guideline for Android developer 
 
 ## Screenshots
-<table width="100%">
+<table width="80%">
 	<tr>
 	  <th width="33%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/home_page.jpg?raw=true"></th>
 	  <th width="33%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/choose_an_account.jpg?raw=true"></th>
@@ -10,7 +10,7 @@ Firebase Authentication code guideline for Android developer
 	</tr>
 </table>
 
-<table width="100%">
+<table width="80%">
 	<tr>
 	  <th width="33%"><img src="https://raw.githubusercontent.com/shankar7545/FirebaseAuthentication/master/Screenshots/choose_an_account.jpg"></th>
 	  <th width="33%"><img src="https://cloud.githubusercontent.com/assets/1763410/17030587/5b3c0d52-4f9a-11e6-97bc-a2ce140eb25a.png"></th>
