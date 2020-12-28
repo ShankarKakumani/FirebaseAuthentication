@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "785863378499",
+    "project_id": "fb-github",
+    "storage_bucket": "fb-github.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785863378499:android:125869bda42298863436f6",
+        "android_client_info": {
+          "package_name": "com.shankar.firebaseauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785863378499-06jndqd07rhr1pb4dm3g873dfqe7803f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYOnP6UC5ayJe6_c9lJ6V9JTJLUlptwRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785863378499-06jndqd07rhr1pb4dm3g873dfqe7803f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:theme="@style/AppTheme.Material">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/phoneTIL"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:endIconCheckable="true"
+                    app:endIconDrawable="@drawable/ic_send"
+                    app:prefixText="+91 "
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/phoneET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Phone Number"
+                        android:lines="1"
+                        android:maxLength="10"
+                        android:inputType="phone"
+                        android:singleLine="true"
+                        android:textSize="14sp"
+                        >
+                        <requestFocus/>
+
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/otpTIL"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/otpET"
+                        android:layout_width="match_parent"
+                        android:inputType="number"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter OTP"
+                        android:lines="1"
+                        android:singleLine="true"
+                        android:textSize="14sp"
+                        >
+
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/sendOTP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/blue_800"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+
+                    android:text="SEND OTP"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/verify"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/blue_800"
+                    android:padding="5dp"
+                    android:text="Verify OTP"
+                    android:enabled="false"
+                    android:visibility="gone"
+                    android:layout_weight="1"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
