@@ -2,11 +2,13 @@
 Firebase Authentication code guideline for Android developer 
 
 ## Screenshots
-<table width="80%">
+<table width="100%">
 	<tr>
-	  <th width="33%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/home_page.jpg?raw=true"></th>
-	  <th width="33%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/choose_an_account.jpg?raw=true"></th>
-	  <th width="33%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/user_profile.jpg?raw=true"></th>
+	  <th width="25%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/home_page.jpg?raw=true"></th>
+	  <th width="25%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/choose_an_account.jpg?raw=true"></th>
+	  <th width="25%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/user_profile.jpg?raw=true"></th>
+	  <th width="25%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/login.jpg?raw=true"></th>
+
 	</tr>
 </table>
 
