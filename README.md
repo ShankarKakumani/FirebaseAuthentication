@@ -1,8 +1,6 @@
-# Firebase Authentication
-Firebase Authentication code guideline for Android developer 
+### Firebase Authentication
 
 ## Demo application
-See [these code examples in `/app` module](/app) of this repository. Example implementations are available in Java .
 
 You can download demo version of Android app from here
 
@@ -24,7 +22,6 @@ https://raw.githubusercontent.com/shankar7545/FirebaseAuthentication/master/app-
 	<tr>
 	  <th width="20%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/register.jpg?raw=true"></th>
 	  <th width="20%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/login.jpg?raw=true"></th>
-	  
 	</tr>
 </table>
 
