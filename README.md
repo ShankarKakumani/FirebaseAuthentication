@@ -6,7 +6,7 @@ See [these code examples in `/app` module](/app) of this repository. Example imp
 
 You can download demo version of Android app from here
 
-[![EasyUpiPayment Demo App](https://img.shields.io/badge/EasyUpiPaymentEXAMPLE-APK-red.svg?style=for-the-badge&logo=android)](https://github.com/PatilShreyas/EasyUpiPayment-Android/raw/master/app/app-debug.apk)
+[![Firebase Authentication Demo App](https://img.shields.io/badge/EasyUpiPaymentEXAMPLE-APK-red.svg?style=for-the-badge&logo=android)](https://github.com/PatilShreyas/EasyUpiPayment-Android/raw/master/app/app-debug.apk)
 
 ## Screenshots
 <table width="100%">
