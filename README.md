@@ -7,7 +7,7 @@ Firebase Authentication code guideline for Android developer
 	  <th width="25%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/home_page.jpg?raw=true"></th>
 	  <th width="25%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/choose_an_account.jpg?raw=true"></th>
 	  <th width="25%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/user_profile.jpg?raw=true"></th>
-	  <th width="25%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/login.jpg?raw=true"></th>
+	  <th width="25%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/phone_number.jpg?raw=true"></th>
 
 	</tr>
 </table>
@@ -16,7 +16,6 @@ Firebase Authentication code guideline for Android developer
 	<tr>
 	  <th width="30%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/login.jpg?raw=true"></th>
 	  <th width="30%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/register.jpg?raw=true"></th>
-	  <th width="30%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/phone_number.jpg?raw=true"></th>
 	</tr>
 </table>
 
