@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputEditText;
@@ -72,12 +73,45 @@ public class EmailAndPassword extends BaseActivity {
         loginButton.setOnClickListener(view -> startLogin());
 
         registerButton.setOnClickListener(view -> startRegistration());
+
+        forgotPasswordTV.setOnClickListener(view ->
+        {
+            forgotPassword();
+        });
+    }
+
+    private void forgotPassword() {
+
+        String emailST = Objects.requireNonNull(emailET.getText()).toString();
+        if(emailST.isEmpty())
+        {
+            Snackbar("Email is empty \uD83D\uDE12");
+            emailET.requestFocus();
+
+        }
+        else
+        {
+            showProgressDialog("Processing ...");
+
+            firebaseAuth.sendPasswordResetEmail(emailST).addOnCompleteListener(task -> {
+                if (task.isSuccessful()) {
+                    Toast.makeText(EmailAndPassword.this, "Please check your email \nWe have sent you a link to reset your password!", Toast.LENGTH_SHORT).show();
+                }
+                hideProgressDialog();
+            }).addOnFailureListener(e -> {
+                Toast.makeText(EmailAndPassword.this, "" + e.getMessage(), Toast.LENGTH_SHORT).show();
+
+                hideProgressDialog();
+            });
+
+        }
+
     }
 
     private void startLogin() {
 
-        String emailST = emailET.getText().toString();
-        String passwordST = passwordET.getText().toString();
+        String emailST = Objects.requireNonNull(emailET.getText()).toString();
+        String passwordST = Objects.requireNonNull(passwordET.getText()).toString();
         
         if(emailST.isEmpty())
         {
