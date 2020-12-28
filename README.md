@@ -14,7 +14,6 @@ https://raw.githubusercontent.com/shankar7545/FirebaseAuthentication/master/app-
 	  <th width="25%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/choose_an_account.jpg?raw=true"></th>
 	  <th width="25%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/user_profile.jpg?raw=true"></th>
 	  <th width="25%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/phone_number.jpg?raw=true"></th>
-
 	</tr>
 </table>
 
