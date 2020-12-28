@@ -1,4 +1,4 @@
-### Firebase Authentication
+# Firebase Authentication
 
 ## Demo application
 
@@ -18,12 +18,6 @@ https://raw.githubusercontent.com/shankar7545/FirebaseAuthentication/master/app-
 	</tr>
 </table>
 
-<table width="100%">
-	<tr>
-	  <th width="20%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/register.jpg?raw=true"></th>
-	  <th width="20%"><img src="https://github.com/shankar7545/FirebaseAuthentication/blob/master/Screenshots/login.jpg?raw=true"></th>
-	</tr>
-</table>
 
 ## Prerequisites
 * google-services.json in app-level folder
